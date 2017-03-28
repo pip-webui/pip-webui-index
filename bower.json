@@ -1,0 +1,37 @@
+{
+    "name":  "pip-webui-index",
+    "version":  "2.0.0",
+    "description":  "Index for Pip.WebUI",
+    "main":  "",
+    "authors":  [
+                    {
+                        "name":  "Sergey Seroukhov",
+                        "email":  "seroukhov@gmail.com"
+                    },
+                    {
+                        "name":  "Katerina Negrienko",
+                        "email":  "katya@negrienko.com"
+                    }
+                ],
+    "license":  "MIT",
+    "keywords":  [
+                     "pip",
+                     "webui",
+                     "framework",
+                     "index"
+                 ],
+    "homepage":  "https://github.com/pip-webui/pip-webui-index",
+    "ignore":  [
+                   ".gitignore",
+                   "node_modules",
+                   "bower_components",
+                   "src",
+                   "tests",
+                   "samples",
+                   "scripts",
+                   "cordova",
+                   "build.*",
+                   "gulpfile.js",
+                   "karma.conf.js"
+               ]
+}

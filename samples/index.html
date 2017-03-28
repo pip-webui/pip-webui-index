@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="../lib/pip-webui-lib.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="../lib/pip-webui-lib.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body ng-app="app" layout="column" layout-align="start center" ng-controller="appController">
+
+ <section>
+            <h1 style="margin-bottom: 0px">Pip-WebUI Framework Samples</h1>
+ </section>
+
+<section class="pip-grouped-grid" style="width: 100%">
+    <section ng-repeat="tile in tiles" class="pip-group"
+             ng-class="{'pip-group-xs': $mdMedia('xs'), 'pip-group-md': $mdMedia('sm') || $mdMedia('md')}">
+        <div class="pip-title-group">
+            {{tile.name}}
+        </div>
+
+
+        <a ng-class="{'pip-tile-xs flex': $mdMedia('xs')}" href="{{service.link}}"
+             ng-repeat="service in tile.submodules"
+             class="pip-tile bg-color-{{service.color}}">
+            <md-icon class="pip-grid-icon pip-white-icon" md-svg-icon="icons:circle"></md-icon>
+            <div class="text-overflow pip-text">{{::service.name}}</div>
+        </a>
+    </section>
+</div>
+
+<footer style="padding: 12px;">
+        <div style="color: rgba(0, 0, 0, 0.87); font-size: 12px; text-align: center">(c) Digital Living Software Corp.</div>
+</footer>
+
+</body>
+</html>

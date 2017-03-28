@@ -1,0 +1,29 @@
+{
+    "name": "pip-webui-index",
+    "version": "2.0.0",
+    "author": "Conceptual Vision Consulting LLC",
+    "description": "Index for Pip.WebUI",
+    "contributors": [
+        {
+            "name": "Sergey Seroukhov",
+            "email": "seroukhov@gmail.com"
+        },
+        {
+            "name": "Katerina Negrienko",
+            "email": "katya@negrienko.com"
+        }
+    ],
+    "keywords": [
+        "pip",
+        "webui",
+        "framework",
+        "index"
+    ],
+    "noAnalyze": true,
+    "license": "MIT",
+    "private": false,
+    "dependencies": {},
+    "devDependencies": {
+        "pip-webui-tasks": "^1.8.0"
+    }
+}
