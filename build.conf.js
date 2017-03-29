@@ -12,7 +12,7 @@ module.exports = {
     },
     file: {
         lib: [
-            '../pip-webui-lib/dist/**/*'          
+            '../pip-webui-lib/dist/**/*'
         ]
     },
     samples: {
