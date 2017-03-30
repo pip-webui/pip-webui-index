@@ -12,8 +12,19 @@
 
 <body ng-app="app" layout="column" layout-align="start center" ng-controller="appController">
 
-	<section>
-		<h1 style="margin-bottom: 0px">Pip-WebUI Framework Samples</h1>
+	<section class="main">
+		<header class="header">
+
+		</header>
+		<div class="layout-column layout-align-center-center flex main-block">
+			<img src="Logo.png">
+			<p class="text">HTML5 UI Framework for Line-of-Business Applications</p>
+			<div>
+				<md-button ng-href="{{tutorial}}" class="button-green">
+					Tutorial
+				</md-button>
+			</div>
+		</div>
 	</section>
 
 	<section class="pip-grouped-grid" style="width: 100%">

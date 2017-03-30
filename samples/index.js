@@ -4,6 +4,7 @@ app.controller('appController',
     function ($scope, $mdMedia) {
         //...
         $scope.$mdMedia = $mdMedia;
+        $scope.tutorial = "https://github.com/pip-webui/pip-webui-tutorial";
         $scope.tiles = [
             {
                 name: 'Modules',
