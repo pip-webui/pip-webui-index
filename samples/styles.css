@@ -203,3 +203,36 @@ a {
     max-width: 200px;
     margin: 0px auto 13px;
 }
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 23px;
+    color: #fff;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+  .img {
+    width: 250px;
+  }
+
+  .main {
+    min-height:  364px;
+}
+
+.main-block {
+  height: 300px
+}
+
+.purpouse {
+  padding: 24px 16px;
+
+}
+.purpouse-text {
+      max-width: 320px;
+    margin: 0px auto 8px;
+    padding: 8px 0px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+}
