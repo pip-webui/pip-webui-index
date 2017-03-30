@@ -6,8 +6,9 @@ a {
   margin: 0 auto;
 }
 .pip-grouped-grid .pip-title-group {
-  color: rgba(0, 0, 0, 0.87);
-  font-size: 30px;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 20px;
+  font-weight: 400px;
   padding-bottom: 12px;
   padding-top: 24px;
   padding-left: 8px;
@@ -37,60 +38,31 @@ a {
   cursor: pointer;
   border-radius: 2px;
 }
+
+
 .pip-grouped-grid .bg-color-0 {
-  background-color: #ef5350;
+  background-color: rgb(72,178,229);
 }
 .pip-grouped-grid .bg-color-1 {
-  background-color: #ec407a;
+  background-color: rgb(103,190,108)
 }
 .pip-grouped-grid .bg-color-2 {
-  background-color: #ab47bc;
+  background-color: rgb(243,112,72)
 }
 .pip-grouped-grid .bg-color-3 {
-  background-color: #7e57c2;
+  background-color: rgb(176,108,172)
+
 }
 .pip-grouped-grid .bg-color-4 {
-  background-color: #5c6bc0;
+  background-color: rgb(255,205,43)
 }
-.pip-grouped-grid .bg-color-5 {
-  background-color: #03a9f4;
-}
-.pip-grouped-grid .bg-color-6 {
-  background-color: #00bcd4;
-}
-.pip-grouped-grid .bg-color-7 {
-  background-color: #009688;
-}
-.pip-grouped-grid .bg-color-8 {
-  background-color: #4caf50;
-}
-.pip-grouped-grid .bg-color-9 {
-  background-color: #8bc34a;
-}
-.pip-grouped-grid .bg-color-10 {
-  background-color: #cddc39;
-}
-.pip-grouped-grid .bg-color-11 {
-  background-color: #ffc107;
-}
-.pip-grouped-grid .bg-color-12 {
-  background-color: #ff9800;
-}
-.pip-grouped-grid .bg-color-13 {
-  background-color: #ff5722;
-}
-.pip-grouped-grid .bg-color-14 {
-  background-color: #795548;
-}
-.pip-grouped-grid .bg-color-15 {
-  background-color: #607d8b;
-}
+
 
 .pip-grouped-grid .pip-tile {
   position: relative;
 }
 .pip-grouped-grid .pip-title-group {
-  font-size: 24px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.54);
 }
 .pip-grouped-grid.grouped-grid-xs {
@@ -215,11 +187,11 @@ a {
       max-width: 700px;
     margin: 0px auto 13px;
     padding: 19px 0px 0px;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: rgba(0, 0, 0, 0.870588);
+    color: rgba(0, 0, 0, 0.540588);
 }
 .purpouse-text a {
   color: #03a9f4 !important;
