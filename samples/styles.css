@@ -236,3 +236,9 @@ a {
     line-height: 20px;
 }
 }
+
+@media(max-width: 1365px) {
+.pip-grouped-grid {
+  max-width: 628px;
+}
+}
