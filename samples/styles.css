@@ -178,10 +178,16 @@ a {
     background: linear-gradient(to bottom,#3185ad 0,#3185ad 27%,#256c8d 77%,#1b5975 100%);
 }
 .header{
-  height: 48px;
+  height: 64px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.header img {
+  margin-top: 22px;
+  margin-bottom: 22px  
 }
 .main-block {
-  height: 504px
+  height: 486px
 }
 .text {
       font-size: 30px;
@@ -197,4 +203,31 @@ a {
     background-color: #4eaf5a!important;
     border: 2px solid;
     color: #fff !important;
+}
+
+.purpouse {
+  padding: 72px 24px;
+  width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+}
+.purpouse-text {
+      max-width: 700px;
+    margin: 0px auto 13px;
+    padding: 19px 0px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.870588);
+}
+.purpouse-text a {
+  color: #03a9f4 !important;
+}
+.purpouse-center {
+  text-align: center;
+}
+.button-center {
+    max-width: 200px;
+    margin: 0px auto 13px;
 }

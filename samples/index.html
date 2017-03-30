@@ -14,20 +14,26 @@
 
 	<section class="main">
 		<header class="header">
-
+			<img src="logo_small.svg" height="20" width="30">
 		</header>
 		<div class="layout-column layout-align-center-center flex main-block">
 			<img src="Logo.png">
 			<p class="text">HTML5 UI Framework for Line-of-Business Applications</p>
 			<div>
-				<md-button ng-href="{{tutorial}}" class="button-green">
-					Tutorial
+				<md-button ng-href="{{github}}" class="button-green">
+					Github
 				</md-button>
 			</div>
 		</div>
 	</section>
+	<section class="purpouse">
+		<p class="purpouse-text">
+			The framework is based on popular
+			<a href="https://angularjs.org/">Angular framework</a> and <a href="https://material.angularjs.org">Angular Material library</a>			of web controls. On the top of that Pip.WebUI provides a set of modules targeted toward LOB application development.
+		</p>
+	</section>
 
-	<section class="pip-grouped-grid" style="width: 100%">
+	<section class="pip-grouped-grid" style="width: 100%; margin-bottom: 24px; margin-top: 12px">
 		<section ng-repeat="tile in tiles" class="pip-group" ng-class="{'pip-group-xs': $mdMedia('xs'), 'pip-group-md': $mdMedia('sm') || $mdMedia('md')}">
 			<div class="pip-title-group">
 				{{tile.name}}
@@ -39,11 +45,24 @@
 				<div class="text-overflow pip-text">{{::service.name}}</div>
 			</a>
 		</section>
-		</div>
+	</section>
 
-		<footer style="padding: 12px;">
-			<div style="color: rgba(0, 0, 0, 0.87); font-size: 12px; text-align: center">(c) Digital Living Software Corp.</div>
-		</footer>
+	</section>
+
+	<section class="purpouse ">
+		<p class="purpouse-text purpouse-center">
+			Don't know where to start ? Start with the tutorial
+		</p>
+		<div class="button-center">
+			<md-button ng-href="{{tutorial}}" class="button-green">
+				Tutorial
+			</md-button>
+		</div>
+	</section>
+
+	<footer style="padding: 12px;">
+		<div style="color: rgba(0, 0, 0, 0.87); font-size: 12px; text-align: center">(c) Digital Living Software Corp.</div>
+	</footer>
 
 </body>
 
