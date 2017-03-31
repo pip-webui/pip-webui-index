@@ -1,8 +1,9 @@
-# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> Buttons
+# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/>
+Index for Pip.WebUI Samples
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Pip.WebUI.Index provides a selection of index page
+This module contains the index page for all Pip.WebUI modules samples
 
 ## <a name="license"></a>License
 
